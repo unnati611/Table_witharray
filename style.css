@@ -34,3 +34,11 @@ button {
     font-weight: 600;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        max-width: none;
+        /* Remove the maximum width on smaller screens */
+    }
+}
